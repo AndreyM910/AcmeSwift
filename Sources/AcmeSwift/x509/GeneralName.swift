@@ -20,7 +20,7 @@ extension GeneralNames {
     }
 }
 
-public enum X509GeneralName: HasSchemaProtocol, TaggedValue {
+public enum X509GeneralName {
     //case otherName(OtherName)
     case rfc822Name(String)
     case dnsName(String)
